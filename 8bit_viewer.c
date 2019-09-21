@@ -88,7 +88,6 @@ int main(int argc, char** argv) {
   }
     
   pitch = width*4;
-  image_32bit=malloc(sizeof(int)*width*height);
   
   image_8bit = load_image_from_file(argv[1],width,height);
 
